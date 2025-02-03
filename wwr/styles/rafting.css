@@ -1,0 +1,94 @@
+/* Root-level variables for color scheme */
+:root {
+    --primary-color: #005f73; 
+    --secondary-color: #0a9396; 
+    --accent-color: #94d2bd; 
+    --background-color: #f0f9ff; 
+    
+}
+
+body, html {
+    margin: 2cm;
+    padding: 0;
+    height: 100%;
+  }
+/*Exciting_expeditions*/
+h1{
+    font-family: indie flower;
+    color:var(--background-color)
+}
+/*all the paragraphs*/
+p{
+    font-family: raleway;
+    color:var(--secondary-color)
+}
+/*history and adventure...*/
+h2{
+    font-family: indie flower;
+    color: var(--primary-color);
+}
+/*no underlines under social media images*/
+a{
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    font-family: indie flower;
+    font-size: 7rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+}
+
+.worker {
+    position: absolute;
+    float: left;
+    bottom: 10%;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
+    padding: 60px;
+    color: white;
+    font-family: Indie Flower;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+
+.worker-img {
+    float: right;
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+    margin-bottom: 1px;
+}
+
+
+
+/*last 5 images*/
+section img{
+    display: block;
+    margin-bottom: 15px;
+    width: 50%;
+    
+}
+/*social media inages*/
+nav img{
+    width: 5%;
+    height: auto;
+}
+    
