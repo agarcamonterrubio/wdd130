@@ -62,7 +62,7 @@ a{
     left: 50%;
     background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
     padding: 60px;
-    color: white;
+    color: white; 
     font-family: Indie Flower;
     max-width: 300px;
     border-radius: 10px;
