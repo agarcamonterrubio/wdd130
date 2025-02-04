@@ -59,12 +59,12 @@ a{
     position: absolute;
     float: left;
     bottom: 10%;
-    left: 50%;
+    left: 10%;
     background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for readability */
     padding: 60px;
     color: white; 
     font-family: Indie Flower;
-    max-width: 300px;
+    max-width: 800px;
     border-radius: 10px;
 }
 
