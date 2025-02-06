@@ -179,8 +179,6 @@ h2{
 }
 
 .adventure-item img {
-    grid-column-start: 1;
-    grid-column-end: 6;
     width: 20%;
     height: auto;
     border-radius: 10px;
