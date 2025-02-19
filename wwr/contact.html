@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Rafting Adventures for inquiries, reservations, and feedback. We are here to help you!">
+    <title>Contact Us - Rafting Adventures</title>
+    <link rel="stylesheet" type="text/css" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/z-excitingexpedition.jpg" alt="logo">
+        <nav>
+            <ul>
+                <li><button><a href="index.html">Home</a></button></li>
+                <li></li><button><a href="about.html">About Us</a></button></li>
+                <li></li><button><a href="trips.html">Trips</a></button></li>
+                <li></li><button><a href="contact.html">Contact</a></button></li>
+            </ul>
+        </nav> 
+    </header> 
+
+    <main>
+        <h2>Contact Us</h2>
+        <p>Have any questions? Feel free to reach out!</p>
+        
+        <section class="company-info">
+            <h3>Company Information</h3>
+            <p><strong>Address:</strong> 123 River Road, Rapids City, RC 45678</p>
+            <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+            <p><strong>Email:</strong> contact@raftingadventures.com</p>
+
+            <h3>Find Us Here</h3>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.96305791550414!3d-37.81627974202113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5df1f6b333%3A0x2b8c4d9f5f0f2a32!2sMelbourne%20CBD%2C%20Victoria%2C%20Australia!5e0!3m2!1sen!2sus!4v1612408372062!5m2!1sen!2sus" 
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </section>
+
+        <section class="team">
+            <h3>Meet Our Team</h3>
+            <div class="employee-profiles">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Jane Doe - Customer Support">
+                    <figcaption>Jane Doe - Customer Support</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="John Smith - Tour Guide">
+                    <figcaption>John Smith - Tour Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Sarah Johnson - Operations Manager">
+                    <figcaption>Sarah Johnson - Operations Manager</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h3>Contact Form</h3>
+            <form action="#" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <fieldset>
+                    <legend>Purpose of Message:</legend>
+                    <input type="radio" id="general" name="purpose" value="General Inquiry" required>
+                    <label for="general">General Inquiry</label><br>
+                    <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                    <label for="reservation">Reservation Question</label><br>
+                    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                    <label for="suggestion">Website Suggestion</label>
+                </fieldset>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <label>
+                    <input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter
+                </label>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Rafting Adventures. All rights reserved.</p>
+        <p><a href="contact-wireframe.png">View Contact Us Wireframe</a></p>
+    </footer>
+</body>
+</html>
