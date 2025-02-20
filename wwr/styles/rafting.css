@@ -149,8 +149,10 @@ nav button a {
     height: auto; /* Maintains aspect ratio */
     border-radius: 10px; /* Optional rounded corners */
 }
-.history p{
-    align-items: left;
+.history {
+    display: flex;
+    justify-content: flex-start;  
+
 }
 h2{
     font-size: 2rem;
