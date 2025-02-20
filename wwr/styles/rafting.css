@@ -408,6 +408,7 @@ h1 {
     border-radius: 10px;
 }
 
+
 .hero figcaption {
     font-style: italic;
     color: #555;
@@ -419,6 +420,34 @@ h1 {
     margin-top: 40px;
     font-size: 2em;
 }
+
+.team {
+    text-align: center; /* Centra el título */
+    width: 100%; /* Asegura que ocupe todo el ancho */
+}
+
+.employee-profiles {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    align-items: center; /* Alinea verticalmente */
+    gap: 20px; /* Espacio entre imágenes */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+    max-width: 800px; /* Ajusta el ancho máximo para que no se extienda demasiado */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    flex-wrap: wrap; /* Permite que las imágenes se acomoden en varias líneas si es necesario */
+}
+
+figure {
+    text-align: center; /* Centra el pie de imagen */
+    margin: 0; /* Elimina márgenes predeterminados */
+}
+
+img {
+    width: 150px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    display: block; /* Evita espacios extra debajo de la imagen */
+}
+
 
 .grid-container {
     display: flex;
